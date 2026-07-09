@@ -1,4 +1,4 @@
-# Nihal Universe
+# Nihal Ikka Universe
 
 Personal landing page linking all my little web apps together.
 Deployed at the root of [nihal467.github.io](https://nihal467.github.io/).

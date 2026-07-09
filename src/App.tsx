@@ -77,7 +77,7 @@ function App() {
           </span>
           <div>
             <small>Personal workspace</small>
-            <strong>Nihal Universe</strong>
+            <strong>Nihal Ikka Universe</strong>
           </div>
         </div>
         <button
