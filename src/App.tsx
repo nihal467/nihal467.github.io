@@ -98,11 +98,11 @@ function App() {
         <h1>
           A tiny universe of apps I build
           <br />
-          for myself &mdash; and share for fun.
+          for myself, and sometimes share.
         </h1>
         <p>
           Everything here is a self-contained web app deployed on GitHub Pages.
-          Pick a room and jump in.
+          Pick one and jump in.
         </p>
       </section>
 
@@ -132,7 +132,7 @@ function App() {
       </section>
 
       <footer className="footer">
-        <small>&copy; {new Date().getFullYear()} Nihal &middot; built with Vite + React</small>
+        <small>&copy; {new Date().getFullYear()} Nihal, built with Vite + React</small>
         <div className="socials">
           <a
             aria-label="GitHub"
@@ -145,12 +145,12 @@ function App() {
           </a>
           <a
             aria-label="LinkedIn"
-            href="https://www.linkedin.com/in/nihal467"
+            href="https://www.linkedin.com/in/mohammednihal"
             rel="noreferrer"
             target="_blank"
           >
             <Linkedin size={16} />
-            <span>linkedin.com/in/nihal467</span>
+            <span>linkedin.com/in/mohammednihal</span>
           </a>
         </div>
       </footer>
