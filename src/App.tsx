@@ -29,7 +29,7 @@ const APPS: AppTile[] = [
     tagline: "Live prices & watchlists",
     description:
       "A personal market dashboard for tracking tickers, portfolios and daily movers at a glance.",
-    href: "/market/",
+    href: "/Market/",
     icon: <Store size={22} />,
     accent: "#0e9f7a",
     status: "Live",
