@@ -1,27 +1,11 @@
-# Nihal Ikka Universe
+# mohammednihal.dev
 
-Personal landing page linking all my little web apps together.
-Deployed at the root of [nihal467.github.io](https://nihal467.github.io/).
+Personal portfolio. Plain HTML and CSS, no build step.
+Deployed by GitHub Pages from `main` as the `nihal467.github.io` user site.
 
-## Apps
-
-| App | URL | Repo |
-| --- | --- | --- |
-| Market | https://nihal467.github.io/market/ | nihal467/market |
-| Travel | https://nihal467.github.io/travel/ | nihal467/travel |
-
-## Local dev
+The Market and Travel apps live in their own repos and are served under
+`/Market/` and `/travel/`.
 
 ```bash
-npm install
-npm run dev      # start Vite dev server
-npm run build    # type-check + production build to dist/
-npm run preview  # preview production build
+python3 -m http.server 4173
 ```
-
-## Deploy
-
-This repo is deployed as the `nihal467/nihal467.github.io` user-site.
-Push to `main` and GitHub Pages serves `dist/` (configure Pages source to
-`GitHub Actions` or point it at the `dist` branch, whichever workflow you
-prefer).
