@@ -4,171 +4,140 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mohammed Nihal</title>
-<meta name="description" content="Mohammed Nihal tests open source healthcare software by day, and travels solo and rides a Himalayan 411 the rest of the time. 20 countries so far.">
+<meta name="description" content="Mohammed Nihal. QA engineer on open source healthcare, solo traveller across 20 countries, and rider of a Himalayan 411.">
 <meta property="og:title" content="Mohammed Nihal">
-<meta property="og:description" content="QA engineer on open source healthcare. Solo traveller, 20 countries. Rides a Himalayan 411.">
+<meta property="og:description" content="QA engineer. Solo traveller, 20 countries. Rides a Himalayan 411.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mohammednihal.dev/">
 <meta property="og:image" content="https://mohammednihal.dev/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#14150f">
+<meta name="theme-color" content="#0c0c0a">
 <link rel="canonical" href="https://mohammednihal.dev/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" as="image" href="img/hero.webp" imagesrcset="img/hero-1600.webp 1600w, img/hero.webp 2576w" imagesizes="max(100vw, 134vh)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero.webp" imagesrcset="img/hero-1100.webp 1127w, img/hero.webp 1936w" imagesizes="(max-width: 700px) 62vw, 430px" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="hero">
-  <img class="hero-img" src="img/hero.webp" srcset="img/hero-1600.webp 1600w, img/hero.webp 2576w" sizes="max(100vw, 134vh)" width="2576" height="1936" alt="Nihal standing in a green valley between the mountains of Glen Coe, Scotland" fetchpriority="high">
-  <nav class="nav" aria-label="Sections">
-    <a class="nav-name" href="#top">Nihal</a>
+  <nav class="nav" aria-label="Main">
+    <a href="#top" class="mark">MN</a>
     <div>
-      <a href="#work">Work</a>
       <a href="#road">Road</a>
       <a href="#ride">Ride</a>
+      <a href="#work">Work</a>
       <a href="#hello">Hello</a>
     </div>
   </nav>
-  <div class="hero-text" id="top">
-    <p class="kicker">QA engineer · Solo traveller · Rider</p>
-    <h1>Mohammed<br>Nihal</h1>
+
+  <h1 class="sr-only" id="top">Mohammed Nihal</h1>
+  <div class="stage" aria-hidden="true">
+    <span class="word solid">NIHAL</span>
+    <figure class="portrait">
+      <img src="img/hero.webp" srcset="img/hero-1100.webp 1127w, img/hero.webp 1936w" sizes="(max-width: 700px) 62vw, 430px" width="1936" height="2576" alt="" fetchpriority="high">
+    </figure>
+    <span class="word outline">NIHAL</span>
   </div>
-  <p class="hero-place">Glen Coe, Scotland</p>
+
+  <div class="hero-foot">
+    <p class="who">Mohammed Nihal</p>
+    <p class="roles"><span>QA engineer</span><span>Solo traveller</span><span>Rider</span></p>
+    <p class="where">Damrak, Amsterdam</p>
+  </div>
 </header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Amsterdam</span><i>✦</i><span>Brussels</span><i>✦</i><span>Edinburgh</span><i>✦</i><span>London</span><i>✦</i><span>Rome</span><i>✦</i><span>Paris</span><i>✦</i><span>New York</span><i>✦</i><span>Cappadocia</span><i>✦</i><span>Glen Coe</span><i>✦</i><span>Munnar</span><i>✦</i>
+    <span>Amsterdam</span><i>✦</i><span>Brussels</span><i>✦</i><span>Edinburgh</span><i>✦</i><span>London</span><i>✦</i><span>Rome</span><i>✦</i><span>Paris</span><i>✦</i><span>New York</span><i>✦</i><span>Cappadocia</span><i>✦</i><span>Glen Coe</span><i>✦</i><span>Munnar</span><i>✦</i>
+  </div>
+</div>
 
 <main>
 
-  <section class="intro wrap">
-    <div class="intro-text reveal">
-      <p class="statement">
-        I test healthcare software for a living. Every other day I can find,
-        I'm on a motorcycle or in a window seat, <em>going somewhere I haven't been.</em>
-      </p>
-      <p>
-        I grew up in Kasaragod, at the northern tip of Kerala. I've spent the
-        last five years on the QA side of open source software that runs in
-        Indian hospitals, and my leave days getting to twenty countries,
-        mostly alone, mostly with one backpack.
-      </p>
-      <dl class="stats">
-        <div><dt>20</dt><dd>countries</dd></div>
-        <div><dt>5+</dt><dd>years in QA</dd></div>
-        <div><dt>411</dt><dd>cc, one Himalayan</dd></div>
-      </dl>
-    </div>
-    <figure class="intro-photo reveal">
-      <img src="img/london.webp" width="825" height="1100" loading="lazy" alt="Nihal holding a coffee on a rooftop with the dome of St Paul's Cathedral behind him">
-      <figcaption>London. Country no. 20.</figcaption>
-    </figure>
-  </section>
-
-  <section class="work" id="work">
-    <div class="wrap work-grid">
-      <figure class="work-photo reveal">
-        <img src="img/desk.webp" width="1100" height="1100" loading="lazy" alt="Nihal at his desk, thinking, in front of a monitor">
-      </figure>
-      <div class="work-text reveal">
-        <p class="label">The day job</p>
-        <h2>I make sure the software holds up before a hospital depends on it.</h2>
-        <p>
-          I'm an SDE-II at <a href="https://egov.org.in" target="_blank" rel="noopener">eGov Foundation</a>
-          and on the core team at <a href="https://ohc.network" target="_blank" rel="noopener">Open Healthcare Network</a>.
-          I write the Playwright tests behind CARE, an open source hospital
-          system live in 11 Indian states, and keep its CI fast enough that
-          developers actually run it.
-        </p>
-        <ul class="links">
-          <li><a href="https://github.com/ohcnetwork/care_fe" target="_blank" rel="noopener"><span>CARE</span><small>Hospital management system, a Digital Public Good</small></a></li>
-          <li><a href="https://10bedicu.org" target="_blank" rel="noopener"><span>10BedICU</span><small>Tele-ICU linking 210+ rural hospitals to specialists</small></a></li>
-          <li><a href="https://www.linkedin.com/pulse/optimizing-parallel-test-execution-cypress-v6-github-actions-nihal-qwhdf" target="_blank" rel="noopener"><span>Parallel Cypress on GitHub Actions</span><small>Something I wrote about cutting test time</small></a></li>
-          <li><a href="https://contributors.ohc.network/contributors/nihal467" target="_blank" rel="noopener"><span>Open source contributions</span><small>My issues, pull requests and reviews</small></a></li>
-        </ul>
-        <p class="tools">Playwright · Cypress · Selenium · Pytest · TypeScript · Python · GitHub Actions</p>
+  <section class="journey" id="road" aria-label="Places I have travelled to">
+    <div class="journey-sticky">
+      <div class="track">
+        <div class="panel-title">
+          <p class="big-num">20</p>
+          <h2>Countries.<br><em>Mostly alone.</em></h2>
+          <p class="hint">Keep scrolling <span>→</span></p>
+        </div>
+        <figure class="stop"><img src="img/brussels.webp" width="1100" height="827" alt="Nihal taking a selfie in the lit-up Grand Place at night"><figcaption><b>01</b>Brussels</figcaption></figure>
+        <figure class="stop"><img src="img/glen-coe.webp" width="1600" height="1203" alt="Nihal standing in a green valley between the mountains of Glen Coe"><figcaption><b>02</b>Glen Coe</figcaption></figure>
+        <figure class="stop"><img src="img/rome.webp" width="897" height="1000" loading="lazy" alt="Nihal in front of the Colosseum"><figcaption><b>03</b>Rome</figcaption></figure>
+        <figure class="stop"><img src="img/cappadocia.webp" width="1100" height="768" loading="lazy" alt="Nihal watching hot air balloons rise over Cappadocia"><figcaption><b>04</b>Cappadocia</figcaption></figure>
+        <figure class="stop"><img src="img/london.webp" width="825" height="1100" loading="lazy" alt="Nihal holding a coffee with St Paul's Cathedral behind him"><figcaption><b>05</b>London</figcaption></figure>
+        <figure class="stop"><img src="img/paris.webp" width="847" height="1000" loading="lazy" alt="Nihal beneath the Eiffel Tower lit up at night"><figcaption><b>06</b>Paris</figcaption></figure>
+        <figure class="stop"><img src="img/loch-shiel.webp" width="1100" height="827" loading="lazy" alt="Nihal on a bench at the edge of Loch Shiel under heavy clouds"><figcaption><b>07</b>Loch Shiel</figcaption></figure>
+        <figure class="stop"><img src="img/new-york.webp" width="1000" height="1000" loading="lazy" alt="Nihal in the middle of Times Square"><figcaption><b>08</b>New York</figcaption></figure>
+        <figure class="stop"><img src="img/edinburgh.webp" width="756" height="1000" loading="lazy" alt="Nihal framed in a stone arch at the top of the Scott Monument"><figcaption><b>09</b>Edinburgh</figcaption></figure>
+        <figure class="stop"><img src="img/stonehenge.webp" width="750" height="1000" loading="lazy" alt="Nihal standing in front of Stonehenge"><figcaption><b>10</b>Stonehenge</figcaption></figure>
+        <figure class="stop"><img src="img/glenfinnan.webp" width="750" height="1000" loading="lazy" alt="Nihal looking over the glen at Glenfinnan under storm clouds"><figcaption><b>11</b>Glenfinnan</figcaption></figure>
+        <figure class="stop"><img src="img/zaanse-schans.webp" width="750" height="1000" loading="lazy" alt="Nihal checking his watch in front of the windmills of Zaanse Schans"><figcaption><b>12</b>Zaanse Schans</figcaption></figure>
+        <a class="panel-end" href="https://www.instagram.com/nihal_indian" target="_blank" rel="noopener">
+          <span>The rest is on</span>
+          <strong>Instagram ↗</strong>
+        </a>
       </div>
+      <div class="progress"><i></i></div>
     </div>
-  </section>
-
-  <section class="road wrap" id="road">
-    <div class="section-head reveal">
-      <p class="label">The road</p>
-      <h2>Twenty countries, mostly alone.</h2>
-      <p>A few of the places I've stood in and stared at for too long.</p>
-    </div>
-    <div class="gallery">
-      <figure class="reveal"><img src="img/amsterdam.webp" width="752" height="1000" loading="lazy" alt="Nihal leaning on a bridge railing over the Damrak canal at golden hour"><figcaption>Damrak, Amsterdam</figcaption></figure>
-      <figure class="reveal"><img src="img/brussels.webp" width="1100" height="827" loading="lazy" alt="Nihal taking a selfie in the lit-up Grand Place at night"><figcaption>Grand Place, Brussels</figcaption></figure>
-      <figure class="reveal"><img src="img/glenfinnan.webp" width="750" height="1000" loading="lazy" alt="Nihal looking over the glen at Glenfinnan under storm clouds"><figcaption>Glenfinnan, Scotland</figcaption></figure>
-      <figure class="reveal"><img src="img/rome.webp" width="897" height="1000" loading="lazy" alt="Nihal in front of the Colosseum"><figcaption>Colosseum, Rome</figcaption></figure>
-      <figure class="reveal"><img src="img/cappadocia.webp" width="1100" height="768" loading="lazy" alt="Nihal watching hot air balloons rise over the valleys of Cappadocia"><figcaption>Cappadocia, Türkiye</figcaption></figure>
-      <figure class="reveal"><img src="img/stonehenge.webp" width="750" height="1000" loading="lazy" alt="Nihal standing in front of Stonehenge"><figcaption>Stonehenge, England</figcaption></figure>
-      <figure class="reveal"><img src="img/paris.webp" width="847" height="1000" loading="lazy" alt="Nihal beneath the Eiffel Tower lit up at night"><figcaption>Eiffel Tower, Paris</figcaption></figure>
-      <figure class="reveal"><img src="img/loch-shiel.webp" width="1100" height="827" loading="lazy" alt="Nihal on a bench at the edge of Loch Shiel under heavy clouds"><figcaption>Loch Shiel, Scotland</figcaption></figure>
-      <figure class="reveal"><img src="img/new-york.webp" width="1000" height="1000" loading="lazy" alt="Nihal in the middle of Times Square"><figcaption>Times Square, New York</figcaption></figure>
-      <figure class="reveal"><img src="img/edinburgh.webp" width="756" height="1000" loading="lazy" alt="Nihal framed in a stone arch at the top of the Scott Monument"><figcaption>Scott Monument, Edinburgh</figcaption></figure>
-      <figure class="reveal"><img src="img/zaanse-schans.webp" width="750" height="1000" loading="lazy" alt="Nihal checking his watch in front of the windmills of Zaanse Schans"><figcaption>Zaanse Schans, Netherlands</figcaption></figure>
-      <figure class="reveal"><img src="img/emirates.webp" width="750" height="1000" loading="lazy" alt="Nihal sitting in the empty stands of the Emirates Stadium"><figcaption>Emirates Stadium, London</figcaption></figure>
-    </div>
-    <p class="more reveal"><a href="https://www.instagram.com/nihal_indian" target="_blank" rel="noopener">The rest is on Instagram, @nihal_indian</a></p>
   </section>
 
   <section class="ride" id="ride">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <p class="label">The ride</p>
-        <h2>A Himalayan 411 and no fixed plan.</h2>
-        <p>
-          Kerala to Goa down the coast road. Five hundred kilometres to
-          Dhanushkodi, where India runs out of land. Up to Munnar in the dark
-          to catch the sunrise over a bed of cloud.
-        </p>
-      </div>
+    <p class="ghost" aria-hidden="true">411</p>
+    <div class="ride-inner">
+      <h2 class="reveal">Himalayan<br><em>and no fixed plan.</em></h2>
       <div class="ride-photos">
-        <figure class="reveal"><img src="img/ride-coast.webp" width="750" height="1000" loading="lazy" alt="View over the handlebars of the Himalayan on an empty coastal road"><figcaption>The coast road, Kerala to Goa</figcaption></figure>
-        <figure class="reveal"><img src="img/ride-valparai.webp" width="903" height="1000" loading="lazy" alt="Nihal sitting on his Himalayan looking out over a lake and hills"><figcaption>On the way to Valparai</figcaption></figure>
-        <figure class="reveal"><img src="img/munnar.webp" width="750" height="1000" loading="lazy" alt="Nihal watching the sun rise behind the peaks of Munnar"><figcaption>Sunrise, Munnar</figcaption></figure>
+        <figure class="reveal"><img src="img/ride-coast.webp" width="750" height="1000" loading="lazy" alt="View over the handlebars of the Himalayan on an empty coastal road"><figcaption>Kerala → Goa</figcaption></figure>
+        <figure class="reveal"><img src="img/ride-valparai.webp" width="903" height="1000" loading="lazy" alt="Nihal sitting on his Himalayan looking out over a lake and hills"><figcaption>Valparai</figcaption></figure>
+        <figure class="reveal"><img src="img/munnar.webp" width="750" height="1000" loading="lazy" alt="Nihal watching the sun rise behind the peaks of Munnar"><figcaption>Munnar, sunrise</figcaption></figure>
       </div>
     </div>
   </section>
 
-  <section class="build wrap">
-    <div class="section-head reveal">
-      <p class="label">On the side</p>
-      <h2>Small apps I build for myself.</h2>
-    </div>
-    <div class="cards">
-      <a class="card reveal" href="/travel/"><span>Travel</span><small>My trip command center: expenses, visa timelines and document checklists.</small></a>
-      <a class="card reveal" href="/Market/"><span>Market</span><small>An investment tracker for stocks and mutual funds.</small></a>
-      <a class="card reveal" href="https://github.com/nihal467/scribe-audio" target="_blank" rel="noopener"><span>Scribe Audio</span><small>A dashboard for benchmarking the CARE Scribe audio pipeline.</small></a>
+  <section class="work" id="work">
+    <div class="work-inner">
+      <figure class="work-photo reveal">
+        <img src="img/desk.webp" width="1100" height="1100" loading="lazy" alt="Nihal at his desk, thinking, in front of a monitor">
+      </figure>
+      <div class="work-text">
+        <p class="label reveal">Weekdays</p>
+        <h2 class="reveal">I test the software <em>hospitals run on.</em></h2>
+        <dl class="nums reveal">
+          <div><dt><span data-count="5">5</span>+</dt><dd>years in QA</dd></div>
+          <div><dt><span data-count="11">11</span></dt><dd>Indian states</dd></div>
+          <div><dt><span data-count="210">210</span>+</dt><dd>Tele-ICU hospitals</dd></div>
+        </dl>
+        <div class="pills reveal">
+          <a href="https://github.com/ohcnetwork/care_fe" target="_blank" rel="noopener">CARE ↗</a>
+          <a href="https://10bedicu.org" target="_blank" rel="noopener">10BedICU ↗</a>
+          <a href="https://ohc.network" target="_blank" rel="noopener">Open Healthcare Network ↗</a>
+          <a href="https://egov.org.in" target="_blank" rel="noopener">eGov Foundation ↗</a>
+          <a href="https://www.linkedin.com/pulse/optimizing-parallel-test-execution-cypress-v6-github-actions-nihal-qwhdf" target="_blank" rel="noopener">My Cypress write-up ↗</a>
+        </div>
+      </div>
     </div>
   </section>
 
 </main>
 
 <footer class="footer" id="hello">
-  <div class="wrap">
-    <p class="say-hi">Say hello.</p>
-    <nav class="footer-links" aria-label="Profiles">
-      <a href="https://www.instagram.com/nihal_indian" target="_blank" rel="noopener me">Instagram</a>
-      <a href="https://www.linkedin.com/in/mohammednihal" target="_blank" rel="noopener me">LinkedIn</a>
-      <a href="https://github.com/nihal467" target="_blank" rel="noopener me">GitHub</a>
-    </nav>
-    <p class="copy">© <span id="y">2026</span> Mohammed Nihal · Kasaragod, Kerala</p>
-  </div>
+  <p class="hello" aria-hidden="true">Say hello</p>
+  <nav class="socials" aria-label="Say hello">
+    <a href="https://www.instagram.com/nihal_indian" target="_blank" rel="noopener me">Instagram</a>
+    <a href="https://www.linkedin.com/in/mohammednihal" target="_blank" rel="noopener me">LinkedIn</a>
+    <a href="https://github.com/nihal467" target="_blank" rel="noopener me">GitHub</a>
+  </nav>
+  <p class="fine">
+    <span>© <span id="y">2026</span> Mohammed Nihal · Kasaragod, Kerala</span>
+    <span>Side apps: <a href="/travel/">Travel</a> · <a href="/Market/">Market</a></span>
+  </p>
 </footer>
 
-<script>
-document.getElementById('y').textContent = new Date().getFullYear();
-if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  document.documentElement.classList.add('js');
-  const io = new IntersectionObserver((es) => es.forEach((e) => {
-    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
-  }), { rootMargin: '0px 0px -8% 0px' });
-  document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
-}
-</script>
+<script src="main.js" defer></script>
 </body>
 </html>
