@@ -3,6 +3,11 @@
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
   document.getElementById('y').textContent = new Date().getFullYear();
 
+  // On narrow screens the map scrolls sideways; start it on Europe and Asia.
+  const atlas = document.querySelector('.atlas-scroll');
+  const centreAtlas = () => { atlas.scrollLeft = (atlas.scrollWidth - atlas.clientWidth) * 0.62; };
+  centreAtlas(); addEventListener('load', centreAtlas);
+
   // The journey: vertical scroll moves the photo track sideways.
   const journey = document.querySelector('.journey');
   const track = journey.querySelector('.track');
